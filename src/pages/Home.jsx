@@ -11,6 +11,8 @@ import { ArrowRight, Heart } from 'lucide-react';
 import { InstagramIcon as Instagram } from '../components/Icons';
 import galleryFourth from '../assets/gallery-fourth.jpeg';
 import galleryHamper from '../assets/gallery-hamper.jpg';
+import hamperOne from '../../hamper1 (1).jpg';
+import hamperThree from '../../hamper3.jpg';
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -166,8 +168,8 @@ export const Home = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 relative">
               {[
-                '/hamper3.jpg',
-                '/hamper1%20(1).jpg',
+                hamperThree,
+                hamperOne,
                 galleryHamper,
                 galleryFourth
               ].map((img, idx) => (
